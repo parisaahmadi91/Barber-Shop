@@ -1,0 +1,338 @@
+body{
+	background-color: white;
+	padding: 0;
+	margin: 0;
+} 
+/*Design top area*/
+.top-area{
+	height: 800px;
+	background-image: url(images/3.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom:40px;
+}
+.icons{
+	padding: 15px 0 0 15px;
+	float: left;
+}
+.icons img{
+	padding-top: 15px;
+	padding: 5px;
+}
+.appoint{
+	width: 200px;
+	height: 30px;
+	background-color: #996633;
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 20px;
+	word-spacing: 2px;
+    float: right;
+    margin: 15px 15px 0px 0;
+}
+.appoint img{
+	padding-right: 5px;
+}
+.items{
+	text-align: center;
+	padding-top: 500px;
+}
+.items ul li{
+	text-decoration: none;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 15px;
+	color: white;
+}
+#no1{
+	color: #996633;
+}
+/*Design introduction*/
+.introduction{
+	padding-top: 100px;
+	display: flex;
+	width:70%;
+	margin: auto;
+}
+.left img{
+	flex: 1;
+	width: 200px;
+	height: 320px;
+}
+.explanation{
+	flex: 2;
+	text-align: center;
+}
+.explanation h1{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+.explanation p{
+	line-height: 20px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.right img{
+	flex: 1;
+	width: 210px;
+	height: 320px;
+}
+/*Design extra explanation*/
+.ex-ex{
+	width: 100%;
+	margin-top: 100px;
+	display: flex;
+}
+#left{
+	flex: 1;
+	flex-direction: column;
+}
+#left img{
+	margin-bottom: 50px;
+	width:700px;
+}
+#right{
+	height: 550px;
+	width:700px ;
+	background-color: #F8F9F9;
+	flex: 1;
+	padding:50px 50px 0 0;
+}
+#right h1{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+}
+#right p{
+	font-family: sans-serif;
+	font-size: 11px;
+	color: lightgray;
+	padding-bottom: 40px;
+/*	padding-left: 30px;*/
+}
+#right img{
+	float: left;
+	padding-left:50px;
+	padding-right: 20px;
+}
+/*Design services*/
+.services{
+	display: flex;
+	margin: 10px 200px 80px 200px;
+}
+.services h1{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight:400;
+	color: #B9770E;
+	padding-top: 20px;
+}
+.services p{
+	font-family: sans-serif;
+	font-size: 12px;
+	color:  #ccc;
+	line-height: 20px;
+}
+.services div{
+	margin: 10px;
+	text-align: center;
+}
+.services img{
+	border-radius: 300px;
+}
+#x{
+	font-family: sans-serif;
+	font-size: 13px;
+	color:#B9770E ;
+	padding-top: 10px;
+	border-bottom: 1px solid #B9770E;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+/*Design price list*/
+.price-list{
+	background-image: url(images/bs.jpg);
+	width: 100%;
+	height: 400px;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+}
+.pic-1{
+	padding-top: 50px;
+}
+.pic-1 h1{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight:400 ;
+	color: white;
+}
+.lists{
+	display: flex;
+	width: 70%;
+	height: 500px;
+	background-color: #000;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: -200px;
+}
+.left-list{
+	flex: 1;
+	margin-left: 40px;
+}
+.right-list{
+	flex: 1;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.lists dt{
+	float: left;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color:#996633 ;
+	padding-bottom: 15px;	
+}
+.lists dd{
+	float: left;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #99A3A4;
+	padding-bottom: 50px;
+	padding-left: -30px;
+}
+.dot{
+	border-bottom: 1px dotted #212121;
+	width:270px;
+	float: right;
+	margin-top: 10px;
+}
+.num{
+	float: right;
+	color: #fff;
+	padding-left: 20px;
+}
+.btn{
+	width:850px;
+	height: 40px;
+	background-color:#996633;
+	margin-top: -100px;
+	font-family: sans-serif;
+	font-weight: 600;
+	position: absolute;
+	margin-left:184px;
+}
+/*Design Shopping*/
+.shop{
+	margin-top: 80px;
+	text-align: center;
+}
+.shop h1{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.boxes{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 200px 0 200px;
+}
+.boxes img{
+	height: 250px;
+}
+#box-1{
+	border: 1px solid lightgray;
+	background-color: white;
+	height: 320px;
+	text-align: center;
+}
+#box-2{
+	border: 2px solid lightgray;
+	background-color: white;
+	height: 320px;
+	text-align: center;
+}
+#box-3{
+	border: 1px solid lightgray;
+	background-color: white;
+	height: 320px;
+	text-align: center;
+}
+#box-4{
+	border: 1px solid lightgray;
+	background-color: white;
+	height: 320px;
+	text-align: center;
+}
+.boxes h1{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.boxes p{
+	color: #9C640C;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: -5px;
+}
+#dis{
+	color: lightgray;
+	text-decoration: line-through;
+}
+.btn-2 p{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight:600;
+	color: black;
+	background-color:#996633 ;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 520px;
+	margin-top: 50px;
+}
+/*Design testimonial*/
+.testimonial{
+	width: 100%;
+	height: 580px;
+	background-image: url(images/22.jpg);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	margin-top: 80px;
+}
+.testimonial img{
+	padding-top: 80px;
+}
+#quat{
+	display: flex;
+
+}
+.testimonial h1{
+	padding-top: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+.testimonial p{
+	font-family:'Courgette', cursive;
+	font-size: 12px;
+	padding-left: 500px;
+	padding-right: 500px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+.testimonial h2{
+	color:#9C640C ;
+	font-size:15px;
+}
+
